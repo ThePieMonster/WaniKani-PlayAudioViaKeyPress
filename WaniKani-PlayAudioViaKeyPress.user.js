@@ -15,8 +15,8 @@
 
 // ----------- User Setting -----------
 
-var audioKeyPressKyoko = 106; // *
-var audioKeyPressKenichi = 109; // -
+var audioKeyPressKyoko = 49; // 1
+var audioKeyPressKenichi = 50; // 2
 
 // --------------- Code ---------------
 
