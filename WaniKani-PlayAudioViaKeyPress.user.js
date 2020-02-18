@@ -6,8 +6,8 @@
 // @author         ThePieMonster
 // @include        https://www.wanikani.com/review/session
 // @include        https://www.wanikani.com/lesson/session
-// @updateURL      https://github.com/ThePieMonster/?
-// @downloadURL    https://github.com/ThePieMonster/?
+// @updateURL      https://github.com/ThePieMonster/WaniKani-PlayAudioViaKeyPress/raw/master/WaniKani-PlayAudioViaKeyPress.user.js
+// @downloadURL    https://github.com/ThePieMonster/WaniKani-PlayAudioViaKeyPress/raw/master/WaniKani-PlayAudioViaKeyPress.user.js
 // @license        GNU; https://www.gnu.org/licenses/gpl-3.0.en.html
 // @grant          none
 // ==/UserScript==
