@@ -15,4 +15,4 @@ View Key Codes [here](https://keycode.info/).
 ## Installation
 Tampermonkey: [Chrome Extension](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) / [Firefox Addon](https://addons.mozilla.org/firefox/addon/tampermonkey/)
 
-Add the userscript using the following link: 
+Add the userscript using the following link: https://github.com/ThePieMonster/WaniKani-PlayAudioViaKeyPress/raw/master/WaniKani-PlayAudioViaKeyPress.user.js
