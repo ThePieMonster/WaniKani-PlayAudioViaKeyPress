@@ -8,7 +8,7 @@ Feeling lazy? Bind any key on your keyboard to play the audio sounds for your re
 
 Easily set a key binding for the Kyoto and Kenichi accents.
 
-![script](https://i.postimg.cc/Bn1nRfC1/Script.png)
+![user-settings](https://i.postimg.cc/qMMpLS72/Capture.png)
 
 View Key Codes [here](https://keycode.info/).
 
