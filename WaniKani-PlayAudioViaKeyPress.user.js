@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           WaniKani Play Audio Via Key Press
 // @namespace      https://github.com/ThePieMonster
-// @version        1.1.0
+// @version        1.1.1
 // @description    Play the audio file for the active review item via a key press
 // @author         ThePieMonster
 // @include        https://www.wanikani.com/review/session
@@ -48,6 +48,12 @@ function getAudio() {
     // Confirm <li>option-item-info is not disabled
     // if (itemInfo.className == "disabled") than answer has not been submitted yet
 
+    // Reset audio variables
+    window.kyoko1 = null;
+    window.kenichi1 = null;
+    window.kyoko2 = null;
+    window.kenichi2 = null;
+
     if (isReadingQuestion()) {
         //console.log("WK Audio Play: Is Reading Question");
         getOptionItemInfo();
@@ -67,10 +73,6 @@ function getOptionItemInfo() {
             console.log("WK Audio Play: Answer submitted");
             try {
                 // Get Audio Strings
-                window.kyoko1 = null;
-                window.kenichi1 = null;
-                window.kyoko2 = null;
-                window.kenichi2 = null;
                 window.kyoko1 = $('.pronunciation-group audio')[0];
                 window.kenichi1 = $('.pronunciation-group audio')[1];
                 window.kyoko2 = $('.pronunciation-group audio')[2];
